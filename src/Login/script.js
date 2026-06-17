@@ -13,8 +13,8 @@ function login(){
         window.location.href = "../Loja"
     }else{
         document.getElementById("error-modal").style.display = "flex"
-        document.getElementById("nome").style.borderBottom = "3px solid red"
-        document.getElementById("senha").style.borderBottom = "3px solid red"
+        document.getElementById("nome").style.borderBottom = "3px solid rgba(239, 108, 128, 0.832)"
+        document.getElementById("senha").style.borderBottom = "3px solid rgba(239, 108, 128, 0.832)"
     }
 }
 
